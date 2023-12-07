@@ -1,0 +1,24 @@
+[
+  {
+    "requestBody": {
+      "parentName": "Parent A",
+      "parentProperty1": "Value 1",
+      "parentProperty2": "Value 2",
+      "child": {
+        "childName": "Child 1",
+        "childProperty1": "Child Value 1",
+        "childProperty2": "Child Value 2",
+        "subChild": {
+          "subChildName": "Sub-Child 1",
+          "subChildProperty1": "Sub-Child Value 1",
+          "subChildProperty2": "Sub-Child Value 2"
+        }
+      }
+    },
+    "response": {
+      "hubankName": "Hubank A",
+      "hubankProperty1": "Hubank Value 1",
+      "hubankProperty2": "Hubank Value 2"
+    }
+  }
+]
